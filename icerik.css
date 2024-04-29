@@ -1,0 +1,44 @@
+body {
+    background-color: beige;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+/* navbar */
+header {
+    background-color: rgb(157, 190, 157);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    transition: color 0.3s ease-in-out;
+}
+.navbar a:hover {
+    color: green;
+    font-size: x-large;
+}
+h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+/* icerik */
+.yazi-section{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 5px;
+    
+}
+/* footer */
+footer {
+    background-color: rgb(249, 247, 107);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+footer p {
+    margin: 0;
+}
